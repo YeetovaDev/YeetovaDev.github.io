@@ -9,7 +9,7 @@ document.querySelectorAll('.lang button').forEach(function(b){b.setAttribute('ar
 try{localStorage.setItem('lang',l)}catch(x){}}
 document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){set(b.dataset.l)})});
 try{if(localStorage.getItem('lang')==='pl')set('pl')}catch(x){}
-var ENDPOINT='https://formspree.io/f/YOUR_FORM_ID'; /* <- paste your Formspree form URL here */
+var ENDPOINT='https://formspree.io/f/mdeeyddw'; /* <- */
 var fm=document.getElementById('f'),btn=fm.querySelector('.send'),ok=document.getElementById('ok'),er=document.getElementById('err');
 fm.addEventListener('submit',function(ev){ev.preventDefault();ok.hidden=true;er.hidden=true;btn.disabled=true;
 fetch(ENDPOINT,{method:'POST',body:new FormData(fm),headers:{'Accept':'application/json'}})
