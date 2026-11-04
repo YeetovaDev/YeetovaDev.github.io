@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yeetova Systems — Luau scripter</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="col">
+<div class="bar"><span class="sp"></span><a href="#contact" data-k="nav">Contact</a><div class="lang"><button type="button" data-l="en" aria-pressed="true">EN</button><button type="button" data-l="pl" aria-pressed="false">PL</button></div></div>
+<img class="logo fi" src="logo.jpg" alt="Yeetova Systems logo">
+<h1 data-k="h1" class="fi" style="animation-delay:.12s">Hey, I’m Yeetova. I write Luau for Roblox games.</h1>
+<p data-k="intro" class="intro fi" style="animation-delay:.22s">I script in Luau at an advanced level. I like doing things properly, so I think before I build, keep my code tidy, and don’t leave a job half finished.</p>
+
+<h2 data-k="abt" class="sc">About me</h2>
+<p data-k="p1" class="sc">It all started with my love for Roblox and LEGO. I’ve always liked building things, so I started scripting my own stuff in Roblox and just kept going. These days I’m comfortable with the advanced stuff: modules, typed Luau, keeping everything important on the server, and working out what could go wrong before players find it.</p>
+<p data-k="p2" class="sc mut">I’d rather take a bit longer and do it right than rush something that breaks the moment you add a new feature.</p>
+
+<h2 data-k="oth" class="sc">Beyond Luau</h2>
+<p data-k="p3" class="sc">Besides Luau, I’m interested in cybersecurity and making games in Godot.</p>
+<p data-k="p4" class="sc mut">I also love Arduino and electronics. I design and make PCBs and build projects with integrated circuits, sensors and similar parts. I enjoy repairing computers and phones too, and I do that for people as well.</p>
+
+<h2 data-k="wk" id="work" class="sc">What I can help with</h2>
+<dl class="sc">
+<div><dt data-k="d1t">Gameplay systems</dt><dd data-k="d1d">Combat, abilities, inventories, shops, quests and so on.</dd></div>
+<div><dt data-k="d2t">Structure</dt><dd data-k="d2d">Splitting code into clean modules so it’s easy to keep building on.</dd></div>
+<div><dt data-k="d3t">Player data</dt><dd data-k="d3d">Saving and loading without losing anyone’s progress.</dd></div>
+<div><dt data-k="d4t">Server and client</dt><dd data-k="d4d">Making sure players can’t cheat their way past the server.</dd></div>
+<div><dt data-k="d5t">Performance</dt><dd data-k="d5d">Finding what’s lagging and fixing it, memory leaks included.</dd></div>
+<div><dt data-k="d6t">UI</dt><dd data-k="d6d">Connecting interfaces to the game and making them feel smooth.</dd></div>
+</dl>
+
+<h2 data-k="how" class="sc">How I work</h2>
+<p data-k="howp" class="sc">Tell me what you’re after and I’ll say how I’d do it and roughly how long it’ll take. I build it in small steps so you can test as we go, and when I’m done it’s tidy enough for anyone else to pick up.</p>
+
+<h2 data-k="ct" id="contact" class="sc">Contact</h2>
+<p data-k="ctp" class="sc">Got a project? Tell me a bit about it and I’ll get back to you.</p>
+<form id="f" class="sc">
+<label><span data-k="f_name">Name</span><input name="name" required autocomplete="name"></label>
+<label><span data-k="f_email">Your email</span><input name="email" type="email" required autocomplete="email"></label>
+<label><span data-k="f_topic">What’s it about?</span><select name="topic"><option data-k="o1">Roblox / Luau scripting</option><option data-k="o4">Something else</option></select></label>
+<label><span data-k="f_msg">Message</span><textarea name="message" required></textarea></label>
+<input name="_gotcha" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+<button class="send" type="submit" data-k="f_send">Send inquiry</button>
+<p id="ok" class="note" data-k="f_ok" hidden>Thanks, your message was sent. I’ll get back to you soon.</p>
+<p id="err" class="note" data-k="f_err" hidden>Something went wrong. Please email me directly at the address at the bottom of the page.</p>
+</form>
+
+<footer><span>© 2026 Yeetova Systems</span><a href="mailto:Yeetova.dev@Proton.me">Yeetova.dev@Proton.me</a></footer>
+</div>
+<script src="script.js" defer></script>
+</body>
+</html>
